@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shufl - Stake, shuffle, and win with the TON-powered game.">
+  <title>Shufl - Shuffle and Win</title>
+  <style>
+    /* Basic styles for layout */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    header {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    button {
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+    .game-status {
+      margin: 20px;
+      font-size: 1.2rem;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Welcome to Shufl
+  </header>
+
+  <p class="game-status">Stake your TON and join the game!</p>
+
+  <button id="join-game">Join Game</button>
+  <button id="how-it-works">How It Works</button>
+
+  <footer>
+    © 2024 Shufl. Powered by the TON Blockchain.
+  </footer>
+
+  <script>
+    // Handle button clicks
+    document.getElementById('join-game').addEventListener('click', () => {
+      alert("Game joining functionality coming soon!");
+    });
+
+    document.getElementById('how-it-works').addEventListener('click', () => {
+      alert("1. Stake your TON\n2. Join a room\n3. Watch the shuffle and win!");
+    });
+  </script>
+</body>
+</html>
